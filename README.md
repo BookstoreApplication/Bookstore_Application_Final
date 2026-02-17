@@ -24,7 +24,7 @@ The system consists of **5 Core Microservices** and a **Frontend Client**:
 | **Product Service** | `8081` | Manages book inventory, details, and prices (Admin CRUD). |
 | **Order Service** | `8082` | Handles order placement and retrieves product info via `OpenFeign`. |
 | **User Service**| `8083` | Handles authentication and authorization for users. |
-| **Payment Service**| `8083` | Handles payments for orders. |
+| **Payment Service**| `8084` | Handles payments for orders. |
 | **Frontend** | `3000` | React.js SPA (Single Page Application). |
 
 ---
